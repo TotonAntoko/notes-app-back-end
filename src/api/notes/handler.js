@@ -28,10 +28,10 @@ class NotesHandler {
       response.code(201);
       return response;
     } catch (error) {
-      const response = {
+      const response = h.response({
         status: 'fail',
-        messgae: error.message,
-      };
+        message: error.message,
+      });
       response.code(400);
       return response;
     }
