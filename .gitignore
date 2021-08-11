@@ -75,3 +75,5 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+src/api/uploads/file
